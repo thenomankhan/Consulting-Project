@@ -1,0 +1,855 @@
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+:root {
+    --White: #ffffff;
+    --Dark-Electric-Blue: #4a657d;
+    --Bleu-De-France: #1f87e4;
+    --Slate-Gray: #6b8195;
+    --Weldon-Blue: #8194a4;
+    --Bright-Gray: #edeff2;
+    --Open-Sans: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.common_head {
+    text-align: center;
+}
+
+.common_head h5 {
+    color: var(--Dark-Electric-Blue);
+    font-size: 24px;
+    font-family: var(--Open-Sans);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.common_head p {
+    color: var(--Dark-Electric-Blue);
+    font-size: 14px;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    HEADER PART START
+=========================*/
+
+header {
+    background: var(--Dark-Electric-Blue);
+    padding: 15px;
+    position: relative;
+}
+
+.header_main {
+    display: flex;
+}
+
+.header_main .call_item {
+    width: 195px;
+    display: flex;
+}
+
+.header_main .call_item a {
+    padding: 0 10px;
+}
+
+.header_main .call_item a i {
+    color: var(--White);
+}
+
+.header_main .call_item p {
+    color: var(--White);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--Open-Sans);
+}
+
+.header_main .call_item .line {
+    width: 2px;
+    height: 17px;
+    background: var(--Weldon-Blue);
+    margin-left: 12px;
+}
+
+.header_main .mail_item {
+    width: 260px;
+    display: flex;
+}
+
+.header_main .mail_item a {
+    padding: 0 15px;
+}
+
+.header_main .mail_item a i {
+    color: var(--White);
+}
+
+.header_main .mail_item p {
+    color: var(--White);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--Open-Sans);
+}
+
+.header_main .gap {
+    width: 210px;
+}
+
+.header_main .social_media_icon {
+    width: 240px;
+    display: flex;
+}
+
+.header_main .social_media_icon a {
+    padding: 0 10px;
+}
+
+.header_main .social_media_icon a i {
+    color: var(--White);
+}
+
+.header_main .social_media_icon .line {
+    width: 2px;
+    height: 17px;
+    background: var(--Weldon-Blue);
+    margin-left: 3px;
+}
+
+.header_main .social_media_icon .circle {
+    margin-left: 3px;
+}
+
+.header_main .social_media_icon p {
+    color: var(--White);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--Open-Sans);
+}
+
+header .header_main .contact_us {
+    width: 204px;
+}
+
+.color a {
+    color: var(--White);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--Open-Sans);
+    padding: 12px 33px;
+    text-transform: uppercase;
+}
+
+.color {
+    width: 204px;
+    align-items: flex-end;
+    background: var(--Bleu-De-France);
+    position: absolute;
+    height: 100%;
+    margin-top: -15px;
+    margin-left: 1018px;
+    z-index: 1;
+}
+
+
+/* ======================
+    HEADER PART END
+=========================*/
+
+
+/* ======================
+    NAVIGATION PART START
+=========================*/
+
+.main_navbar {
+    display: flex;
+}
+
+.main_navbar .logo {
+    height: 75px;
+    width: 300px;
+    padding-top: 3px;
+}
+
+.main_navbar .menu {
+    width: 809px;
+}
+
+.main_navbar .menu ul {
+    text-align: right;
+    padding-top: 25px;
+}
+
+.main_navbar .menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main_navbar .menu ul li a {
+    font-size: 16px;
+    font-family: var(--Open-Sans);
+    font-weight: 600;
+    color: var(--Dark-Electric-Blue);
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.main_navbar .menu ul li a:hover {
+    color: var(--Bleu-De-France);
+}
+
+
+/* ======================
+    NAVIGATION PART END
+=========================*/
+
+
+/* ======================
+    BANNER PART START
+=========================*/
+
+#banner {
+    background: url(../image/banner.png) no-repeat center/cover;
+}
+
+#banner .overlay {
+    padding-top: 200px;
+}
+
+.banner_info {}
+
+.banner_info h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--Open-Sans);
+    color: var(--Dark-Electric-Blue);
+    text-transform: uppercase;
+    margin-top: -100px;
+}
+
+.banner_info h5 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: var(--Open-Sans);
+    color: var(--Dark-Electric-Blue);
+    text-transform: uppercase;
+}
+
+.banner_info .btn {
+    margin: 0 auto;
+    width: 204px;
+    height: 52px;
+    border: 1px solid var(--Dark-Electric-Blue);
+    background: transparent;
+}
+
+.banner_info .btn a {
+    padding: 14px 38px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--Dark-Electric-Blue);
+    font-family: var(--Open-Sans);
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.banner_info .btn:hover {
+    background: var(--Bleu-De-France);
+    border: 2px solid var(--White);
+}
+
+.banner_info .btn a:hover {
+    color: var(--White);
+}
+
+.overlay .gap {
+    padding-bottom: 140px;
+}
+
+
+/* ======================
+    BANNER PART END
+=========================*/
+
+
+/* ======================
+    HELP PART START
+=========================*/
+
+#help {}
+
+.text_item {
+    display: flex;
+}
+
+.text_item .image {
+    background: url(../image/help-img.png) no-repeat right/cover;
+    width: 350px;
+    height: auto;
+}
+
+.text_item .gap {
+    width: 125px;
+    height: auto;
+}
+
+.text_item .text {
+    width: 635px;
+    height: auto;
+    padding-top: 100px;
+}
+
+.text_item .text h2 {
+    font-size: 36px;
+    font-family: var(--Open-Sans);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--Dark-Electric-Blue);
+    padding-bottom: 30px;
+}
+
+.text_item .text h2 span {
+    color: var(--Bleu-De-France);
+}
+
+.text_item .text p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--Dark-Electric-Blue);
+    font-family: var(--Open-Sans);
+    padding-bottom: 63px;
+}
+
+.text_item .text .btn a {
+    padding: 15px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    background: var(--Bleu-De-France);
+    color: var(--White);
+    font-family: var(--Open-Sans);
+    text-transform: uppercase;
+}
+
+.text_item .text .btn {
+    padding-bottom: 100px;
+}
+
+
+/* ======================
+    HELP PART END
+=========================*/
+
+
+/* ======================
+    SERVICES PART START
+=========================*/
+
+#service {}
+
+.service_item {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.service_item .service_card {
+    width: 350px;
+    height: 295px;
+    background: var(--Bright-Gray);
+}
+
+.service_item .service_card {
+    display: block;
+}
+
+.service_item .service_card:hover {
+    background: var(--Bleu-De-France);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.service_item .service_card a {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service_item .service_card a i {
+    color: var(--Dark-Electric-Blue);
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.service_item .service_card:hover a i {
+    color: var(--White);
+}
+
+.service_item .service_card h4 {
+    font-size: 15px;
+    color: var(--Dark-Electric-Blue);
+    font-weight: 700;
+    font-family: var(--Open-Sans);
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.service_item .service_card:hover h4 {
+    color: var(--White);
+}
+
+.service_item .service_card p {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--Dark-Electric-Blue);
+    font-family: var(--Open-Sans);
+    text-align: center;
+    margin: 0 35px;
+}
+
+.service_item .service_card:hover p {
+    color: var(--White);
+}
+
+.service_item .service_card .btn {
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.service_item .service_card .btn a {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--White);
+    font-family: var(--Open-Sans);
+    text-transform: uppercase;
+    transition: all linear .3s;
+    background: var(--Bleu-De-France);
+    padding: 8px;
+}
+
+.service_item .service_card:hover .btn a {
+    background: var(--White);
+    color: var(--Bleu-De-France);
+    cursor: pointer;
+}
+
+
+/* ======================
+    SERVICES PART END
+=========================*/
+
+
+/* ======================
+    COUNTER PART START
+=========================*/
+
+#counter {
+    background: url(../image/service-img.png);
+    margin-top: 100px;
+}
+
+.count_main ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.count_main ul li {
+    padding: 20px;
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--White);
+    font-family: var(--Open-Sans);
+}
+
+.count_main .count_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-top: -18px;
+    padding-bottom: 70px;
+}
+
+.count_main .count_title .h2 {
+    text-transform: uppercase;
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--Open-Sans);
+    padding-right: 57px;
+}
+
+.count_main .count_title .h3 {
+    text-transform: uppercase;
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--Open-Sans);
+    padding-right: 53px;
+}
+
+.count_main .count_title .h4 {
+    text-transform: uppercase;
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--Open-Sans);
+    padding-right: 97px;
+}
+
+.count_main .count_title .h5 {
+    text-transform: uppercase;
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--Open-Sans);
+    padding-right: 35px;
+}
+
+
+/* ======================
+    COUNTER PART END
+=========================*/
+
+
+/* ============================
+    SLICK SLIDER PART START
+===============================*/
+
+#portfolio {
+    padding: 100px 0px;
+}
+
+.slick_slider section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main div {
+    width: 10%;
+    height: 350px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.slide {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slide li {
+    padding: 10px;
+    border: 2px solid #1c1c1c;
+    border-radius: 50%;
+    margin-right: 0.8em;
+}
+
+.fived {
+    margin-right: 0;
+}
+
+.a {
+    width: 50%;
+}
+
+.b {
+    background-color: #1c1c1c;
+}
+
+.c {
+    pointer-events: none;
+}
+
+.one {
+    background: url(../image/team-img-1.png) no-repeat top/cover;
+}
+
+.two {
+    background: url(../image/team-img-2.png) no-repeat top/cover;
+}
+
+.three {
+    background: url(../image/team-img-3.png) no-repeat top/cover;
+}
+
+.four {
+    background: url(../image/team-img-4.png) no-repeat top/cover;
+}
+
+
+/* ============================
+    SLICK SLIDER PART END
+===============================*/
+
+
+/* ======================
+    TESTIMONIAL CSS START
+=========================*/
+#testimonial{
+    background: url(../image/testimonial-1.png) no-repeat center/cover;
+    padding: 100px 0px;
+}
+#testimonial .common_head h5{
+    color: var(--White);
+}
+#testimonial .common_head p{
+    color: var(--White);
+}
+.testimonial_area{
+    display: flex;
+    justify-content: right;
+    padding-top: 50px;
+    
+}
+.info {
+    padding-left: 200px;
+    text-align: center;
+}
+.info .image img{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--Bleu-De-France);
+
+}
+.info .icon p{
+    font-family: var(--Open-Sans);
+    font-size: 15px;
+    color: var(--White);
+    padding-top: 20px;
+}
+.info .icon .reviwe svg{
+    fill: var(--Bleu-De-France);
+}
+
+.testimonial_area .information {
+    padding-left: 50px;
+}
+.testimonial_area .information p{
+    color: var(--White);
+    font-size: 12px;
+    font-family: var(--Open-Sans);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ======================
+    TESTIMONIL CSS END
+=========================*/
+
+
+/* ======================
+    footer CSS START
+=========================*/
+footer{
+    background: #0e151b;
+    padding: 100px 0px;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+.footer_left .footer_image p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--Open-Sans);
+    color: var(--White);
+    line-height: 30px;
+    padding-top: 20px;
+}
+.footer_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_right .menu_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+.footer_right .menu_section li{
+    padding: 0px 30px;
+}
+.footer_right .menu_section li a{
+    color: var(--White);
+    font-size: 15px;
+    font-family: var(--Open-Sans);
+    font-weight: 500;
+    line-height: 30px;
+    transition: all linear .2s;
+}
+.footer_right .menu_section li a:hover{
+    color: var(--Bleu-De-France);
+
+}
+.footer_right  .social_section{
+    gap: 20px;
+}
+.footer_right  .social_section i{
+    color: var(--White);
+    font-size: 30px;
+    padding-right: 20px;
+    transition: all linear .2s;
+}
+.footer_right  .social_section i:hover{
+    color: var(--Bleu-De-France);
+}
+
+/* ======================
+    footer CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS START
+=========================*/
+
+
+/* ======================
+    ALL COMMON CSS END
+=========================*/
